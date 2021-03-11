@@ -3,10 +3,8 @@ print(alo)
 
 if(alo == 1):
     cm = float(input('Indique quantos cm são: '))
-    polegada = cm / 2.54
-    print('{} centimetros da {:.2f} polegadas'.format(cm, polegada))
+    print('{} centimetros da {:.2f} polegadas'.format(cm, (cm / 2.54)))
 
 elif(alo == 2):
     polegada1 = float(input('Indique quantas polegadas são: '))
-    cm1 = polegada1 * 2.54
-    print('{} polegadas são {} cm'.format(polegada1, cm1))
+    print('{} polegadas são {} cm'.format(polegada1, (polegada1 * 2.54)))
