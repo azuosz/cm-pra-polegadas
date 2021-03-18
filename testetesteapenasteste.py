@@ -1,4 +1,6 @@
-alo = int(input('1 para converter cm pra polegadas \n2 para converter polegadas pra cm \n'))
+alo = int(input('''1 para converter cm pra polegadas 
+2 para converter polegadas pra cm\n\n'''))
+
 print(alo)
 
 if(alo == 1):
